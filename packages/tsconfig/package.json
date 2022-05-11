@@ -1,0 +1,16 @@
+{
+  "name": "@currie0612/tsconfig",
+  "version": "0.1.0",
+  "description": "Typescript Configurations",
+  "keywords": [
+    "typescript"
+  ],
+  "author": "currie0612 <currie0612@gmail.com>",
+  "license": "ISC",
+  "files": [
+    "tsconfig.*.json"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
