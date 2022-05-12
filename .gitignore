@@ -126,9 +126,10 @@ temp/
 
 # End of https://www.toptal.com/developers/gitignore/api/node
 
-.yarn/
 .pnp.*
 .yarn/*
+.yarn/cache
+.yarn/unplugged
 !.yarn/patches
 !.yarn/plugins
 !.yarn/releases
