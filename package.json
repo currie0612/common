@@ -1,11 +1,12 @@
 {
   "name": "root",
-  "private": true,
   "devDependencies": {
-    "husky": "^7.0.4",
+    "@types/node": "^17.0.31",
+    "husky": "^8.0.1",
     "jest": "^28.0.3",
     "lerna": "^4.0.0",
-    "ts-node": "^10.7.0"
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
   },
   "scripts": {
     "build": "lerna run build",
@@ -18,8 +19,6 @@
     "size": "size-limit",
     "analyze": "size-limit --why",
     "docs:generate": "typedoc --excludePrivate --includeVersion --out docs/ packages/**/src/index.{ts,tsx}",
-    "test": "jest **/*.test.ts",
-    "doctor:packages": "yarn doctor packages/",
-    "typescript": "^4.6.4"
+    "doctor:packages": "yarn doctor packages/"
   }
 }
