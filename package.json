@@ -19,6 +19,7 @@
     "size": "size-limit",
     "analyze": "size-limit --why",
     "docs:generate": "typedoc --excludePrivate --includeVersion --out docs/ packages/**/src/index.{ts,tsx}",
+    "test": "echo \"skip\"",
     "doctor:packages": "yarn doctor packages/"
   }
 }
